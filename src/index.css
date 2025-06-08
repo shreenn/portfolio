@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
+
+
+@font-face {
+  font-family: "pricedown";
+  src: url("./pricedown.otf");
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "pricedown";
+}
+
+.gta-overlay {
+  background: repeating-linear-gradient(
+    45deg,
+    #0f0f0f,
+    #0f0f0f 10px,
+    #111 10px,
+    #111 20px
+  );
+  box-shadow: inset 0 0 100px rgba(0, 255, 255, 0.1);
+}
+
+.gta-text {
+  text-shadow: 2px 2px 4px rgba(255, 0, 70, 0.8);
+}
