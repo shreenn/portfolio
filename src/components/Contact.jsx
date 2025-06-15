@@ -16,17 +16,6 @@ function Contact() {
       ),
     },
     {
-      label: "📱 Phone",
-      value: (
-        <a
-          href="tel:+918920750507"
-          className="text-blue-400 hover:text-blue-600 underline"
-        >
-          +91 8920750507
-        </a>
-      ),
-    },
-    {
       label: "🔗 LinkedIn",
       value: (
         <a

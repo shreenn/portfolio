@@ -101,7 +101,7 @@ function AboutMe() {
         className="absolute left-[10%] bottom-0 z-10 w-[35%] h-[90%] flex items-end"
       >
         <img
-          src="./imag.png"
+          src="./image.png"
           alt="Shreen Pandey"
           className="h-full object-contain transition-all duration-300 hover:scale-105"
         />
